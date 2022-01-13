@@ -1,0 +1,60 @@
+body {
+    background: black;
+}
+.wrap { 
+    margin: auto;
+    width: 500px;
+    background: #E6E6E6;
+    padding: 1em;
+}
+.header {
+    display: flex;
+    margin-bottom: 0;
+}
+.postcard{
+    float:left;
+}
+.logo{
+    float: right;
+    margin-left: 8em;
+    padding: 0;
+}
+img{
+    height: 80px; 
+}
+.body{
+    display: flex;
+}
+.texto {
+   /* float: left*/
+}
+.form{
+    /*float:right;*/
+    margin-top: 2em;
+}
+input {
+margin-bottom: 1em;
+margin-top: 0;
+border-style:none;
+border-bottom:2px solid grey;
+background: transparent;
+flex-direction: right;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+h1{
+   border-bottom: 2px solid black;
+   border-right: 2px solid black;
+   border-radius: 3em;
+   padding: 0.2em;
+
+}
+button{
+    background: grey;
+    padding: 5px;
+}
